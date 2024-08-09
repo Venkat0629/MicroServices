@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.nisum</groupId>
-	<artifactId>SpringCloudConfigServer</artifactId>
+	<artifactId>ConfigServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringCloudConfigServer</name>
+	<name>ConfigServer</name>
 	<description>A Springboot module for Server Configuration</description>
 	<url/>
 	<licenses>

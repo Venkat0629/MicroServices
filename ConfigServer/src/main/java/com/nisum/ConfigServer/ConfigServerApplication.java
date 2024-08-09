@@ -1,4 +1,4 @@
-package com.nisum.SpringCloudConfigServer;
+package com.nisum.ConfigServer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class SpringCloudConfigServerApplication {
+public class ConfigServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudConfigServerApplication.class, args);
+        SpringApplication.run(ConfigServerApplication.class, args);
     }
 
 }

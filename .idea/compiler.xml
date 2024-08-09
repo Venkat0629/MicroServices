@@ -7,16 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringCloudConfigServer" />
+        <module name="ConfigServer" />
+        <module name="DiscoveryRegister" />
         <module name="UserService" />
         <module name="ProductService" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DiscoveryRegisterService" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigServer" options="-parameters" />
+      <module name="DiscoveryRegister" options="-parameters" />
+      <module name="DiscoveryRegisterService" options="-parameters" />
       <module name="ProductService" options="-parameters" />
-      <module name="SpringCloudConfigServer" options="-parameters" />
       <module name="UserService" options="-parameters" />
     </option>
   </component>
